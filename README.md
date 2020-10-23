@@ -9,8 +9,8 @@ $ npm i epsg-sniffer
 
 # Usage
 ```
-const getEpsg = require('epsg-sniffer');
-getEpsg.getEpsg({
+const sniffer = require('epsg-sniffer');
+sniffer.getEpsg({
     lat: 63.727390, lng: 23.030782, 
     country: 'finland', strict: true,
 });
