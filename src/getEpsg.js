@@ -11,8 +11,6 @@ const assertInput = (input) => {
 };
 
 const getEpsg = (input) => {
-    console.log('input', input);
-
     assertInput(input);
     proj4.defs('WGS84', "+title=WGS 84 (long/lat) +proj=longlat +ellps=WGS84 +datum=WGS84 +units=degrees");
     let found = [];
