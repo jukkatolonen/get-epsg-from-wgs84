@@ -1,6 +1,6 @@
 {
   "name": "epsg-sniffer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get EPSG code from WGS84 coordinates",
   "main": "index.js",
   "scripts": {
