@@ -1,0 +1,28 @@
+{
+  "name": "get-epsg-from-wgs84",
+  "version": "1.0.0",
+  "description": "Get EPSG code from WGS84 coordinates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "epsg",
+    "coordinates",
+    "WGS84"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jukkatolonen/get-epsg-from-wgs84.git"
+  },
+  "author": "Jukka Tolonen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jukkatolonen/get-epsg-from-wgs84/issues"
+  },
+  "homepage": "https://github.com/jukkatolonen/get-epsg-from-wgs84#readme",
+  "dependencies": {
+    "epsg-index": "^1.0.0",
+    "proj4": "^2.6.0"
+  }
+}
